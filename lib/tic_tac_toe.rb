@@ -105,7 +105,6 @@ def winner
 end
 
 def play
-  initialize()
   @board
 end
 
