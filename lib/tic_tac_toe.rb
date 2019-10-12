@@ -106,6 +106,7 @@ end
 
 def play
   initialize()
+  @board
 end
 
 end
