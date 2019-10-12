@@ -107,7 +107,8 @@ end
 def play
   until over?
   turn
-  break if over?
+  if draw?
+    print "Cat's Game!"
   end
 end
 
