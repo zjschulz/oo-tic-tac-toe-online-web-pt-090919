@@ -105,7 +105,7 @@ def winner
 end
 
 def play
-  @board
+  TicTacToe.new
 end
 
 end
