@@ -105,16 +105,13 @@ def winner
 end
 
 def play
-  until over?
-  turn
-  end
   if draw?
     print "Cat's Game!"
   elsif won?
     print "Congratulations #{winner}!"
+  elsif over?
   else
     turn
-    over?
   end
 end
 
