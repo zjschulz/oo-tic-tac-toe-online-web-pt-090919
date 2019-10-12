@@ -109,9 +109,6 @@ def play
   until over?
     turn
   end
-  if won?
-  elsif draw?
-  end
 end
 
 end
