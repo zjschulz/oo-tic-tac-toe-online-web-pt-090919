@@ -105,9 +105,9 @@ def winner
 end
 
 def play
-  until over?
-  turn
-  end
+  9.times do
+    turn
+    breakif
 end
 
 end
