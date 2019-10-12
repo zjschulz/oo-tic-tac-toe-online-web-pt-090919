@@ -105,7 +105,6 @@ def winner
 end
 
 def play
-  9.times do
   turn
   break if over?
   end
