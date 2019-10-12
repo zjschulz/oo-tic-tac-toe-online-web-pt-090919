@@ -107,9 +107,11 @@ end
 def play
   until over?
   turn
-end
+  end
   if draw?
     print "Cat's Game!"
+  elsif won?
+    print ""
   end
 end
 
