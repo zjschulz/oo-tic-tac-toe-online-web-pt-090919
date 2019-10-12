@@ -107,6 +107,7 @@ end
 def play
   if over? == false
     turn
+    over?
   elsif draw?
     print "Cat's Game!"
   elsif won?
