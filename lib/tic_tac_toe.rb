@@ -109,5 +109,6 @@ def play
   turn
   break if won? or draw?
 end
+end
 
 end
