@@ -64,7 +64,6 @@ def turn
   else
     turn
   end
-  won?
 end
 
 def won?
