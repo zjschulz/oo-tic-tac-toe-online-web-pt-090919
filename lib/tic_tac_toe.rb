@@ -107,7 +107,6 @@ end
 def play
   TicTacToe.new
   turn
-  won?
 end
 
 end
