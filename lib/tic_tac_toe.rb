@@ -106,7 +106,12 @@ end
 
 def play
   TicTacToe.new
-  turn
+  until over?
+    turn
+  end
+  if won?
+  elsif draw?
+  end
 end
 
 end
