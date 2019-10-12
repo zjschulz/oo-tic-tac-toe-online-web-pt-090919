@@ -106,7 +106,7 @@ end
 
 def play
   TicTacToe.new
-  turn & over?
+  turn
 end
 
 end
