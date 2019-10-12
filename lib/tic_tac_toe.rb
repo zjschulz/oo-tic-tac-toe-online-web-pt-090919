@@ -105,6 +105,7 @@ def winner
 end
 
 def play
+  initialize()
   
 end
 
