@@ -110,7 +110,9 @@ def play
     turn
   end
   if won?
+    break
   elsif draw?
+    break
   end
 end
 
