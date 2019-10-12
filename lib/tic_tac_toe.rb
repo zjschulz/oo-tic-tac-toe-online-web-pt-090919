@@ -108,7 +108,7 @@ def play
   until over?
   turn
   end
-  elsif draw?
+  if draw?
     print "Cat's Game!"
   elsif won?
     print "Congratulations #{winner}!"
