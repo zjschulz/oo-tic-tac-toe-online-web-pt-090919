@@ -105,7 +105,6 @@ def winner
 end
 
 def play
-  TicTacToe.new
   until over?
     turn
   end
