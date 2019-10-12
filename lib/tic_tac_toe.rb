@@ -106,6 +106,7 @@ end
 
 def play
   TicTacToe.new
+  
 end
 
 end
