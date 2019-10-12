@@ -107,7 +107,7 @@ end
 def play
   9.times do
     turn
-    break if won? || draw?
+    break if won? or draw?
 end
 
 end
