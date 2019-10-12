@@ -63,6 +63,7 @@ def turn
     display_board
   else
     turn
+    over?
   end
 end
 
