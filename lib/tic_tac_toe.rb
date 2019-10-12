@@ -105,6 +105,7 @@ def winner
 end
 
 def play
+  until over?
   turn
   break if over?
   end
