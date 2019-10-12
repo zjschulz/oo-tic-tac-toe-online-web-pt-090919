@@ -112,6 +112,8 @@ def play
     print "Cat's Game!"
   elsif won?
     print "Congratulations #{winner}!"
+  else
+    turn
   end
 end
 
