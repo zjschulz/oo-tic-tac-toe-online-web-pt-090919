@@ -114,6 +114,7 @@ def play
     print "Congratulations #{winner}!"
   else
     turn
+    over?
   end
 end
 
