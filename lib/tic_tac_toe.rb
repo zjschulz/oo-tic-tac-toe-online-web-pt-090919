@@ -111,7 +111,7 @@ def play
   if draw?
     print "Cat's Game!"
   elsif won?
-    print ""
+    print "Congratulations #{winner}!"
   end
 end
 
